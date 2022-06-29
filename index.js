@@ -1,8 +1,6 @@
 
 var http = require('http');
-var fs = require('fs');
-var content = fs.readFileSync('index.html');
 
 http.createServer(function(req, res){
-	res.end(content);
+	res.end('<h1>Luiz Eduardo da Costa</h1>');
 }).listen(3000);
