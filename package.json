@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "strat": "node index"
+    "strat": "node index.js"
   },
   "author": "Luiz Eduardo Costa",
   "license": "ISC"
